@@ -4,7 +4,7 @@
 
 let person = {name: "Junaid", age:21 , occupation: "Software Developer"}; 
 function introduce(personfn){
-    let introduction = "Hi My name is " + personfn.name + " and My age is " + personfn.age +
+    let introduction = "Hi My name is " + `${personfn?.name1 ? personfn?.name1 : 'junaid'}` + " and My age is " + personfn.age +
     " years old And I work as a " + personfn.occupation  ; 
     console.log(introduction)
 }
