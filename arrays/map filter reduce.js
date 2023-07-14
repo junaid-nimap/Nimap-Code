@@ -116,8 +116,8 @@ and returns an array of employee names whose salary is above $50,000.
 Each employee object has a name property and a salary property. */
 
 const arr10 = [
-  {name:"Junaid Khan" ,salary: },
-  {name: "Maruti",salary: },
-  {name: "Osama",salary: },
-  {name: "Hassan",salary: },
+  {name:"Junaid Khan" ,salary: 20000 },
+  {name: "Maruti",salary: 50000},
+  {name: "Osama",salary: 25000 },
+  {name: "Hassan",salary: 30000 },
 ]
